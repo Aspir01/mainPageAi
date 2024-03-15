@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Evolventa";
+  src: url("../public/fonts/Evolventa-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Evolventa";
+  src: url("../public/fonts/Evolventa-Bold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Evolventa";
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.3s;
+}

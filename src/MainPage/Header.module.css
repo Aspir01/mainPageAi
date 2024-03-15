@@ -1,0 +1,6 @@
+.head {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../public/background.png);
+    display: flex;
+}
