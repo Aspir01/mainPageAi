@@ -27,7 +27,7 @@ const Header = () => {
             </div>
             <div className={style.medText}>
                 <p className={style.med}>Привет, меня зовут Медянка! Давай поиграем?</p>
-                <img src="yellow.png" />
+                <img src="yellow.png" alt='плохое интернет соединение' />
             </div>
         </div>
     )

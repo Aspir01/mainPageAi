@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 150px;
+    padding: 0 120px;
     margin: 60px 0;
 }
 
@@ -21,12 +21,13 @@
 }
 
 .nav {
-    width: 300px;
+    width: 400px;
     display: flex;
     justify-content: space-between;
 }
 
 .nav p {
+    font-size: 20px;
     color: #717171;
     cursor: pointer;
 }
@@ -44,7 +45,7 @@
     font-size: 80px;
     font-weight: 700;
     width: 650px;
-    margin: 0 150px;
+    margin: 0 120px;
 }
 
 .card {
@@ -55,7 +56,7 @@
     background: #FFFFFF;
     width: 660px;
     height: 230px;
-    margin: 0 150px 230px 150px;
+    margin: 0 150px 230px 120px;
     border-radius: 55px 0px 55px 55px;
 }
 
@@ -97,7 +98,7 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    right: 40px;
+    right: 20px;
     top: 190px;
 }
 
@@ -111,6 +112,6 @@ h2 {
 .medText img {
     cursor: pointer;
     position: relative;
-    bottom: 50px;
-    right: 30px;
+    bottom: 40px;
+    right: 40px;
 }
