@@ -24,3 +24,15 @@
     font-weight: 700;
     color: #9f5edc;
 }
+
+
+@media (max-width: 1500px) {
+    .card {
+        margin-left: 450px;
+        margin-top: 650px;
+    }
+
+    .card h1 {
+        margin-bottom: 10px;
+    }
+}

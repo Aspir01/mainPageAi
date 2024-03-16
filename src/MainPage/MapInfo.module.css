@@ -45,3 +45,10 @@ h3 {
     color: white;
     font-weight: 600;
 }
+
+
+@media (max-width: 1500px) {
+    .main {
+        height: 700px;
+    }
+}
