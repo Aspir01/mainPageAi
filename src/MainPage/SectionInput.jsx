@@ -1,5 +1,5 @@
 import React from 'react'
-import style from "./SectionPage.module.css"
+import style from "./SectionInput.module.css"
 
 const SectionInput = () => {
     return (
