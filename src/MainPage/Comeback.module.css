@@ -1,9 +1,26 @@
 .card {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 800px;
 }
 
 .card h1 {
     font-size: 60px;
     font-weight: 700;
+    color: #FAF4FC;
+    text-align: center;
+    line-height: 60px;
+}
+
+.card button {
+    width: 230px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    font-weight: 700;
+    color: #9f5edc;
 }

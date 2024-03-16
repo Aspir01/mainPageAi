@@ -5,6 +5,8 @@ import SectionInput from './SectionInput'
 import Slider from './Slider'
 import MapInfo from './MapInfo'
 import QrCode from './QrCode'
+import Comeback from './Comeback'
+import Footer from './Footer'
 
 const MainPage = () => {
     return (
@@ -14,6 +16,8 @@ const MainPage = () => {
             <Slider />
             <MapInfo />
             <QrCode />
+            <Comeback />
+            <Footer />
         </div>
     )
 }
