@@ -6,7 +6,7 @@ const Header = () => {
         <div className={style.head}>
             <div className={style.header}>
                 <p className={style.logo}>АйтиВин.</p>
-                <div>
+                <div className={style.nav}>
                     <p>Продукты</p>
                     <p>Центр помощи</p>
                     <p>Контакты</p>
@@ -18,15 +18,15 @@ const Header = () => {
                 <img src="profile.png" alt="фото профиля" />
                 <div>
                     <h2>Добро пожаловать! Я медянка</h2>
-                    <p>НейроПомощник,который поможет вам и вашим детям узнавать что-то новое каждый день. Давайте начнем приключение!</p>
-                    <div>
-                        <button>Узнать больше</button>
+                    <p className={style.about}>НейроПомощник,который поможет вам и вашим детям узнавать что-то новое каждый день. Давайте начнем приключение!</p>
+                    <div className={style.btns}>
+                        <button className={style.more}>Узнать больше</button>
                         <button>Как это работает?</button>
                     </div>
                 </div>
             </div>
-            <div>
-                <p>Привет, меня зовут Медянка! Давай поиграем?</p>
+            <div className={style.medText}>
+                <p className={style.med}>Привет, меня зовут Медянка! Давай поиграем?</p>
                 <img src="yellow.png" />
             </div>
         </div>
